@@ -1,0 +1,27 @@
+.gridWrapper {
+  border: 1px solid red;
+}
+
+.gridItem {
+  height: 400px;
+  width: 80%;
+  margin: 1rem auto;
+  border: 1px solid black;
+  border-radius: 80px 10px;
+  overflow: hidden;
+  display: flex;
+}
+
+.gridWrapper .gridItem:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.gridImg {
+  width: 50%;
+  height: 100%
+}
+
+.gridTitle {
+  padding: 2rem;
+  line-height: 1.75;
+}

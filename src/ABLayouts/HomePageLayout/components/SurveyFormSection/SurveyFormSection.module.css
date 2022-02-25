@@ -1,0 +1,102 @@
+.surveyFormSectionWrapper {
+  height: 300px;
+  width: 100%;
+  border: 1px solid blue;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.surveyFormSectionInnerBlurWrapper {
+  background: rgba(24, 37, 24, 0.9);
+  backdrop-filter: blur(5px);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spanCircle1 {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  width: 250px;
+  height: 250px;
+  border: 2px solid #fff;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 6s linear infinite;
+}
+
+.spanCircle2 {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  width: 250px;
+  height: 250px;
+  border: 2px solid #fff;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 4s linear infinite;
+}
+
+.spanCircle3 {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 250px;
+  border: 2px solid #fff;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate2 10s linear infinite;
+}
+
+.surveyFormSectionWrapper > span:hover {
+  border: none;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.surveyJsContent {
+  /* position: relative;
+  padding: 40px 60px; */
+  color: #fff;
+  /* text-align: center;
+  transition: 0.5s;
+  z-index: 10; */
+}
+.surveyJsContent a {
+  /* position: relative; */
+  /* display: inline-block;
+  margin-top: 10px; */
+  border: 2px solid #fff;
+  /* padding: 6px 18px;
+  text-decoration: none; */
+  /* color: #fff;
+  font-weight: 600; */
+}
+
+.surveyJsContent a:hover {
+  background: #1f2933;
+  color: #fff;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,1 @@
+export * as homePageText from './homePage';

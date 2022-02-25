@@ -1,0 +1,1 @@
+export { getStaticFilePath } from "./staticFileService";

@@ -1,0 +1,5 @@
+.wrapper {
+  border: 1px solid blue;
+  height: 56px; /** just for reference as of now*/
+  width: 200px; /** just for reference as of now*/
+}
