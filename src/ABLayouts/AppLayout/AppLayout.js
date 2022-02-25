@@ -1,6 +1,6 @@
 // the main layout for the whole app.
 import { useRouter } from "next/router";
-import { Navbar } from "../../ABComponents";
+import { Navbar, Footer } from "../../ABComponents";
 
 export default function AppLayout({ children }) {
   const router = useRouter();
@@ -9,6 +9,7 @@ export default function AppLayout({ children }) {
     <>
       <Navbar />
       {children}
+      <Footer />
     </>
   );
 }

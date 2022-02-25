@@ -1,5 +1,5 @@
 import { useRef, useLayoutEffect, useEffect } from "react";
-import classNames from 'classnames';
+import ClassNames from 'classnames';
 import styles from "./Navbar.module.css";
 
 export default function Navbar() {
@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navWrapper} ref={(node) => (navRef.current = node)}>
       <div>LOGO</div>
-      <div className={classNames(styles.talk, styles.linksTag)}>The Assam Tea legacy</div>
+      <div className={ClassNames(styles.talk, styles.linksTag)}>The Assam Tea legacy</div>
       <div className={styles.linksTag}>Tea Talks</div>
       <div className={styles.linksTag}>Survey</div>
       <div className={styles.linksTag}>Find Us</div>

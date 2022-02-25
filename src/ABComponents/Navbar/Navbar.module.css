@@ -6,7 +6,7 @@
   position: Fixed;
   top: 0;
   width: 100%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   z-index: 1;
 }
 

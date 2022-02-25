@@ -11,11 +11,11 @@ export default function SurveyFormSection() {
         <span className={styles.spanCircle1} />
         <span className={styles.spanCircle2} />
         <span className={styles.spanCircle3} />
-        <span className={styles.surveyJsContent}>
+        <div className={styles.surveyJsContent}>
           <a href="http://forms.gle/jtKRYNjQPTc8VNR27" target="_blank">
             Survey Form
           </a>
-        </span>
+        </div>
       </div>
     </div>
   );

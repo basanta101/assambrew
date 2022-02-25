@@ -17,3 +17,7 @@ export const GRID_IMG_3 = getStaticFilePath("/assets/images/slider3.jpg");
 
 //=================SURVEY =================================
 export const SURVEY_BG = getStaticFilePath("/assets/images/surveyBg.jpg");
+//=========================================================
+
+//======================BRAND LOGO=====
+export const BRAND_LOGO = getStaticFilePath("/assets/images/assambrew_logo2.png")

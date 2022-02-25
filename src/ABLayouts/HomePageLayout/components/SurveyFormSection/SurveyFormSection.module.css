@@ -2,28 +2,31 @@
   height: 300px;
   width: 100%;
   border: 1px solid blue;
-  position: absolute;
+  /* position: absolute; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .surveyFormSectionInnerBlurWrapper {
   background: rgba(24, 37, 24, 0.9);
-  backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px); */
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* position:relative */
 }
 
 .spanCircle1 {
+  /* display: inline-block; */
   position: absolute;
-  top: 10%;
-  left: 40%;
+  /* top: 10%;
+  left: 40%; */
   width: 250px;
   height: 250px;
   border: 2px solid #fff;
+  /* border-radius: 50%; */
   border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
   transition: 0.5s;
   animation: animate 6s linear infinite;
@@ -31,8 +34,8 @@
 
 .spanCircle2 {
   position: absolute;
-  top: 10%;
-  left: 40%;
+  /* top: 10%;
+  left: 40%; */
   width: 250px;
   height: 250px;
   border: 2px solid #fff;
@@ -43,8 +46,8 @@
 
 .spanCircle3 {
   position: absolute;
-  top: 10%;
-  left: 40%;
+  /* top: 10%;
+  left: 40%; */
   transform: translateX(-50%);
   width: 250px;
   height: 250px;
