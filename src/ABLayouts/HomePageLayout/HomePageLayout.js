@@ -1,19 +1,25 @@
 import { BackgroundVideo, Navbar, Carousel } from "../../ABComponents";
-import { HomePageGrid, BlogCardsList, EmailSubscription, Testimonials, SurveyFormSection, ContactUs } from './components/index'
-
-// import HomePageGrid from "./components/HomePageGrid/HomePageGrid";
+import {
+  HomePageGrid,
+  BlogCardsList,
+  EmailSubscription,
+  Testimonials,
+  SurveyFormSection,
+  ContactUs,
+  HomePageCarouselSection
+} from "./components/index";
 
 
 // HOME PAGE LAYOUT.
 export default function HomeLayout() {
   return (
     <>
-      <BackgroundVideo />{" "}
-      <Carousel />
+      <BackgroundVideo />
+      <HomePageCarouselSection />
       <HomePageGrid />
-      {/* <BlogCardsList /> */}
+      <BlogCardsList />
       <EmailSubscription />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <SurveyFormSection />
       <ContactUs />
     </>
