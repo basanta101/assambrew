@@ -83,7 +83,7 @@ const Carousel = () => {
   return (
     <>
       <div className={styles.carousel}>
-        <button
+        {/* <button
           className={classNames(
             styles.carouselButton,
             styles.carouselButtonLeft
@@ -91,7 +91,7 @@ const Carousel = () => {
           onClick={() => handleImgChange({ type: ARROW_CLICK_TYPE.PREV })}
         >
           prev
-        </button>
+        </button> */}
 
         <div className={styles.carouselTrackContainer}>
           <ul className={styles.carouselTrack} ref={trackRef}>
@@ -105,7 +105,7 @@ const Carousel = () => {
           </ul>
         </div>
 
-        <button
+        {/* <button
           className={classNames(
             styles.carouselButton,
             styles.carouselButtonRight
@@ -113,7 +113,7 @@ const Carousel = () => {
           onClick={() => handleImgChange({ type: ARROW_CLICK_TYPE.NEXT })}
         >
           next
-        </button>
+        </button> */}
 
         <div className={styles.carouselNav}>
           <button className={styles.carouselIndicator}></button>
